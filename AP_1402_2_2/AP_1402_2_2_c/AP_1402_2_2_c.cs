@@ -19,7 +19,7 @@ namespace project
                 {
                     Isprime = false;
                 }
-                if (i = 2)
+                if (i == 2)
                 {
                     Isprime = true;
                 }
