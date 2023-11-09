@@ -19,6 +19,10 @@ namespace project
                 {
                     Isprime = false;
                 }
+                if (i == 2)
+                {
+                    Isprime = true;
+                }
                 for (int j = 2; j < i; j++)
                 {
                     if (i % j == 0)
