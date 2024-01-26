@@ -36,7 +36,6 @@ namespace project
             bool Tekrari = false;
 
             int bozorg = 0;
-            char harfghabl = ' ';
             int tekrari = 0;
 
             for (int z = 0; z < word.Length; z++)
@@ -71,7 +70,6 @@ namespace project
                 {
                     Alamat = true;
                 }
-                harfghabl = a;
             }
             Harfbozorg = bozorg >= 2;
             return Harfbozorg || Biseda || Alamat || Tekrari;
